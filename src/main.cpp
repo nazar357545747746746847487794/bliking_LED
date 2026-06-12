@@ -12,4 +12,6 @@ void loop() {
   delay(700);
   digitalWrite(LED, LOW);
   delay(300);
+  int a = digitalRead(LED);
+  
 }
